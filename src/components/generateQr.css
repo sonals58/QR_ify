@@ -1,0 +1,224 @@
+/* Common styles for all screen sizes */
+.generateQr {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.inputSec {
+    margin-left: 150px;
+    display: flex;
+
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.inputSec > h1 {
+    color: rgba(46, 46, 46, 0.87);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inputSec > p {
+    color: rgb(42, 42, 42);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.inputSec > input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 5px 5px 15px rgb(113, 88, 133);
+}
+
+.textarea {
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.inputColors > p {
+    background-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inputSec > button {
+    background-color: rgb(59, 5, 80);
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    box-shadow: 5px 5px 20px rgb(83, 61, 102);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.inputSec > button:hover {
+    transform: scale(1.05);
+}
+
+.outputSec {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-right: 250px;
+    background-color: rgb(152, 26, 167);
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px rgb(86, 9, 93);
+}
+
+.outputSec > img {
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgb(201, 146, 202);
+    cursor: pointer;
+}
+
+.outputSec > button {
+    cursor: pointer;
+    background-color: rgb(59, 5, 80);
+    margin: 40px;
+    padding: 15px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 5px 5px 10px rgb(69, 37, 109);
+}
+
+.outputSec > button:hover {
+    transform: scale(1.05);
+}
+
+.alert {
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    position: fixed;
+    left: 40%;
+    top: 35%;
+    background-color: rgba(54, 117, 148, 0.919);
+}
+
+.alert > p {
+    background-color: transparent;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.alert > button {
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(0, 66, 128);
+    width: 110px;
+    background-color: rgb(41, 48, 112);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+
+.alert > button:hover{
+    transform: scale(1.1);
+}
+
+.blur {
+    display: none;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(41, 41, 41, 0.796);
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1100px) {
+    .generateQr {
+        margin-left: 100px;
+        margin-right:80px;
+    }
+
+    .inputSec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: -10px;
+    }
+
+    .inputSec>input{
+        align-items: center;
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+
+    .outputSec {
+        
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 0px;
+        
+    }
+
+    .outputSec>button{
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    .alert{
+        left: 30%;
+        top: 30%;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .generateQr {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .inputSec{
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .inputSec>button{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+
+    .outputSec {
+        padding: 30px;
+        margin-left: 10px;
+        margin-right: -20px;
+        margin-top: 80px;
+    }
+
+    .outputSec>button{
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    .alert{
+        padding: 10px;
+        left: 8%;
+        top: 40%;
+    }
+}
