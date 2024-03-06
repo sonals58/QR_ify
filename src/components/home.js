@@ -7,7 +7,7 @@ function home() {
         <div className='intro'>
           <ul>
             <li>Welcome to</li>
-            <li style={{color:'rgba(9, 5, 108, 0.88)', cursor:'pointer'}}>GenerateQr</li>
+            <li style={{color:'rgba(22,48,32)', cursor:'pointer'}}>QRify</li>
           </ul> 
           
           <p>Welcome to our user-friendly QR code generator! Say hello to a hassle-free way of creating personalized QR codes for all your needs. Whether it's sharing contact information, website URLs, or event details, our platform simplifies the process with just a few clicks. Embrace the power of QR codes for seamless data sharing, and experience the convenience of instant connectivity like never before. Get ready to generate QR codes effortlessly and efficiently with our cutting-edge website!</p>

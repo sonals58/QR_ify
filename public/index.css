@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, rgb(233, 247, 255), rgb(222, 105, 200));
+    background-image: linear-gradient(to bottom, #e5f0dd, #87a872);
     display: flex;
     flex-direction: column;
 }

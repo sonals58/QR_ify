@@ -29,7 +29,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
-    box-shadow: 5px 5px 15px rgb(113, 88, 133);
+    box-shadow: 5px 5px 15px #527853;
 }
 
 .textarea {
@@ -45,7 +45,7 @@
 }
 
 .inputSec > button {
-    background-color: rgb(59, 5, 80);
+    background-color: #527853;
     padding: 13px;
     border: none;
     border-radius: 10px;
@@ -54,7 +54,7 @@
     font-weight: bold;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
-    box-shadow: 5px 5px 20px rgb(83, 61, 102);
+    box-shadow: 5px 5px 20px #558358;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -68,22 +68,22 @@
     flex-direction: column;
     margin-right: 100px;
     margin-right: 250px;
-    background-color: rgb(152, 26, 167);
+    background-color: #527853;
     padding: 60px;
     border-radius: 20px;
-    box-shadow: 4px 4px 20px rgb(86, 9, 93);
+    box-shadow: 4px 4px 20px #427542;
 }
 
 .outputSec > img {
     padding: 40px;
     border-radius: 20px;
-    background-color: rgb(201, 146, 202);
+    background-color: #88a389;
     cursor: pointer;
 }
 
 .outputSec > button {
     cursor: pointer;
-    background-color: rgb(59, 5, 80);
+    background-color: #8ca68c;
     margin: 40px;
     padding: 15px;
     margin-bottom: 0px;
@@ -94,7 +94,7 @@
     border: none;
     border-radius: 10px;
     transition: 0.3s;
-    box-shadow: 5px 5px 10px rgb(69, 37, 109);
+    box-shadow: 5px 5px 10px #365a37;
 }
 
 .outputSec > button:hover {
@@ -109,7 +109,7 @@
     position: fixed;
     left: 40%;
     top: 35%;
-    background-color: rgba(54, 117, 148, 0.919);
+    background-color: #527853;
 }
 
 .alert > p {
@@ -121,9 +121,9 @@
 .alert > button {
     height: 45px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgb(0, 66, 128);
+    box-shadow: 0px 0px 10px #527853;
     width: 110px;
-    background-color: rgb(41, 48, 112);
+    background-color: #9ec4a0;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
@@ -142,7 +142,7 @@
     top: 0;
     left: 0;
     position: fixed;
-    background-color: rgba(41, 41, 41, 0.796);
+    background-color: #527853;
     width: 100%;
     height: 100%;
 }
